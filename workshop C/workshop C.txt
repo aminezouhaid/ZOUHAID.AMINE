@@ -1,0 +1,128 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
+#define MAX(a,b) a>b ? 1:0
+int main()
+{
+//votre CV :
+ char NOM[10],PRENOM[10],SEX[10],TELE[10];
+    int AGE;
+
+          printf("entreé votre  nom :");
+          scanf("%s",NOM);
+            printf("entreé votre  prenom :");
+          scanf("%s",PRENOM);
+            printf("entreé votre  Age :");
+          scanf("%d",&AGE);
+            printf("entreé votre  Sex :");
+          scanf("%s",SEX);
+            printf("entreé votre Numero de tele :");
+          scanf("%s",TELE);
+          printf("votre nom c'est: %s\n ",NOM);
+           printf("votre prenom c'est: %s\n ",PRENOM);
+            printf("votre age c'est: %d\n ",AGE);
+             printf("votre  sex c'est: %s\n ",SEX);
+              printf("votre tele c'est: %s\n ",TELE);
+
+
+
+
+int a,b;
+printf("enter name a :");
+scanf("%d",&a);
+printf("enter name b :");
+scanf("%d",&b);
+
+ bool X = MAX(a,b);
+
+    printf("%s", X ? "true":"false");
+
+
+
+return(0);
+
+}
+// Delta
+int a, b, c, delta;
+    float x1, x2;
+    printf("Enter a: ");
+    scanf("%d", &a);
+    printf("Enter b: ");
+    scanf("%d", &b);
+    printf("Enter c: ");
+    scanf("%d", &c);
+    delta = (b*b) - (4*a*c);
+    if (delta > 0) {
+        x1 = (-b-sqrt(delta)) / (2*a);
+        x2 = (-b+sqrt(delta)) / (2*a);
+        printf("The First Solution: %.2f \n", x1);
+        printf("The Second Solution: %.2f \n", x2);
+    }
+    else if(delta < 0) {
+        printf("The Equation Has not a solution !");
+    }
+    else {
+        x1 = -b / (2*a);
+        printf("The Equation have one solution %.2f \n", x1);
+    }
+
+ int a, b, c, delta;
+    float x1, x2;
+    printf("Enter a: ");
+    scanf("%d", &a);
+    printf("Enter b: ");
+    scanf("%d", &b);
+    printf("Enter c: ");
+    scanf("%d", &c);
+    delta = (b*b) - (4*a*c);
+    if (delta > 0) {
+        x1 = (-b-sqrt(delta)) / (2*a);
+        x2 = (-b+sqrt(delta)) / (2*a);
+        printf("The First Solution: %.2f \n", x1);
+        printf("The Second Solution: %.2f \n", x2);
+    }
+    else if(delta < 0) {
+        printf("The Equation Has not a solution !");
+    }
+    else {
+        x1 = -b / (2*a);
+        printf("The Equation have one solution %.2f \n", x1);
+    }
+
+ // fizzbuzz
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+
+
+
+char number()
+{
+
+    for (int i = 1;i <= 100 ; i++)
+    {
+        if (i%5==0 && i%3==0)
+        {
+            printf("fizzbuzz\n");
+        }
+        else if (i%5==0)
+        {
+            printf("buzz\n");
+        }
+        else if (i%3==0)
+        {
+            printf("fizz\n");
+        }
+        else
+        {
+            printf("%d\n",i);
+        }
+    }
+}
+int main()
+{
+    printf("%s",number());
+    return 0;
+}
+
