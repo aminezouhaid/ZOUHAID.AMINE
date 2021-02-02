@@ -1,0 +1,130 @@
+ 
+ body{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+
+    background-image: url(7.jpg) ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+.rectangle{
+    position: absolute;
+    width: 400px;
+    height: 750px;
+    left: 40%;
+    top:   30%;
+    translate: (-50% , -50%);
+    background: rgb(9, 7, 10);
+ opacity: 70%;
+ }
+ 
+ 
+ 
+ 
+ .navbar{
+    position: absolute;
+     width: 300px;
+     height: 400px;
+     left: 43%;
+     top: 35%;
+    translate: (-50% , -50%);
+    text-decoration: none;
+    color: #cbb3b6;
+   
+ }
+ 
+
+    
+
+.photoo{
+    width: 400px;
+    height: 76px;
+    left: 56.9%;
+    top: 3%;
+    position: absolute;
+    opacity: 70%;
+    margin-left: 10px;
+   
+} 
+
+
+
+.title {
+    text-align: center;
+}
+
+.title h2{
+    margin-left: 30px;
+    margin-bottom: 20px;
+    color: rgba(170, 170, 28, 0.959);
+    border:  rgba(170, 170, 28, 0.959) solid 2px;
+    padding: 2px; 
+    width: 230px;
+    height: 28px;
+    
+
+}
+ 
+ 
+
+
+
+.tout{
+    margin-top: 10px;
+    position: absolute;
+    left: 58%;
+    bottom: 85%;
+}
+
+.DD{
+    height:20px ;
+    width: 200px;
+}
+fieldset {
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: white;
+    border-image: initial;
+    margin-top: 10px;
+    margin-left: 10px;
+    opacity: 70%;
+}
+.bord {
+    margin: px;
+    padding: 2px;
+}
+.box {
+    margin:2px;
+    padding: 2px;
+}
+.ben {
+    margin: 2px;
+    padding: 2px;
+}
+.hotel{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 10px;
+    right: 10px;
+    color: rgba(209, 244, 245, 0.466);
+}
+.boton{
+    margin-top:  20px;
+    margin-left: 110px;
+    width: 87px;
+    height: 33px;
+}
+}
