@@ -155,7 +155,7 @@ h1 {
     flex-flow: wrap;
 }
 h3 {
-border: chartreuse solid;
+
     color: #266EFD;
     width: 100%;
     font-size: 14px;
@@ -331,7 +331,7 @@ img {
 }
 
 .colorbac {
-    border: violet solid;
+     
     height: 179px;
     width: 60%;
     background-color: #141414;
@@ -361,7 +361,7 @@ img {
 }
 
 .navfooter {
-border: olivedrab solid;
+ 
     height: 50px;
     width: 50%;
     margin: 30px 0 0 300px;
