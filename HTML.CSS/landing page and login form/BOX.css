@@ -146,13 +146,20 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 60px 0 0 0;
 }
-
+.titre1{
+    display: flex;
+    flex-flow: wrap;
+}
+.titre2{
+    display: flex;
+    flex-flow: wrap;
+}
 h3 {
-
+border: chartreuse solid;
     color: #266EFD;
-    width: 50%;
+    width: 100%;
     font-size: 14px;
-    margin: 40px 0 0 60%;
+   margin: 60px 0 0 0;
 }
 
 .partie {
@@ -230,7 +237,7 @@ p {
 
 .container2 {
 
-    height: 45%;
+    height: 26%;
 
 
 }
@@ -268,12 +275,36 @@ p {
     margin: 5px 0 0 10px;
 
 }
+.ellipse1{
+    border: solid black 1.5px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin: 5px 0 0 10px;
+    opacity: 30%;
+
+}
+.sahm{
+  height: 30px;px;
+    width: 30px;
+    color: white;
+    background-color:rgb(8, 89, 250);
+    font-size: 20px;
+    padding-left: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+   
+}
+
 
 .coleur {
     color: black;
     font-size: 15px;
     text-decoration: none;
 }
+
+
+
 
 img {
     margin: 16px;
@@ -300,7 +331,7 @@ img {
 }
 
 .colorbac {
-    border: none;
+    border: violet solid;
     height: 179px;
     width: 60%;
     background-color: #141414;
@@ -329,22 +360,20 @@ img {
 
 }
 
-/*footer*/
-.footer {
-
-    height: 100px;
-    display: flex;
-    justify-content: center;
-}
-
 .navfooter {
-
+border: olivedrab solid;
     height: 50px;
     width: 50%;
-    margin: 30px 0 0 0;
+    margin: 30px 0 0 300px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     font-size: 11px;
-
-
+   
+    
+   
+}
+a{
+    text-decoration: none;
+    margin-top: 10px;
+    color: black;
 }
