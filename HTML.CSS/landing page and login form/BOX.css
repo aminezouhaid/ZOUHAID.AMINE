@@ -171,6 +171,9 @@ h3 {
     flex-flow: wrap;
 
 }
+.espace{
+    margin-top: 5px;
+}
 
 .partie1 {
 
@@ -285,16 +288,23 @@ p {
 
 }
 .sahm{
-  height: 30px;px;
-    width: 30px;
-    color: white;
-    background-color:rgb(8, 89, 250);
-    font-size: 20px;
-    padding-left: 10px;
-    border-radius: 20px;
-    text-decoration: none;
-   
+  
+    margin: 120px 4px 0 -14px;
+    
 }
+
+.sihm{
+    font-size: 40px;
+    border-radius:  10px;
+    color: #266EFD;
+}
+    
+    
+    
+    
+    
+    
+
 
 
 .coleur {
