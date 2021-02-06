@@ -480,5 +480,7 @@ a{
     margin: 0 0 0 10px;
     opacity: 30%;
 }
-
+.sahm{
+    opacity: 0;
+}
 }

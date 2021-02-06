@@ -1,6 +1,6 @@
 * {
     padding: 0;
-    margin: 0;
+    margin:auto;
     box-sizing: border-box;
 
 
@@ -51,7 +51,7 @@ h1 {
 }
 
 h2 {
-    margin: 30px 0 0 20px;
+    margin: 20px 0 0 26px;
     text-decoration: none;
 
 }
@@ -95,7 +95,7 @@ h2 {
     border-radius: 5px;
     height: 40px;
     width: 40%;
-    margin: 0 0 0 100px;
+    margin: 0 0 0 86px;
     background-color: navy;
     padding-top: 10px;
 
@@ -103,13 +103,13 @@ h2 {
 
 a {
     color: white;
-    margin: 0 0 0 20px;
+    margin: 0 0 0 36px;
 
 
 }
 
 /*-----media query -----*/
-@media (max-width:700px) {
+@media (max-width:1200px) {
     .main {
         border-radius: 10px;
         height: 500px;
@@ -123,7 +123,7 @@ a {
   
     h1 {
         color: azure;
-        margin: 10px 0 0 0;
+        margin: 10px 0 0 85;
         border-radius: 20px;
         height: 40px;
         background-color: navy;
@@ -131,7 +131,7 @@ a {
     }
 
     h2 {
-        margin: 30px 0 0 0;
+        margin: 20px 0 0 20px;
         text-decoration: none;
 
     }
