@@ -41,9 +41,13 @@ h1 {
     width: 150px;
 }
 
+
 .infos {
 
     height: 300px;
+    display: flex;
+   flex-wrap: wrap;
+    align-items: center;
 }
 
 h2 {
