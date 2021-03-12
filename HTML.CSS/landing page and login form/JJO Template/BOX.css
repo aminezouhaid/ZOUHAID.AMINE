@@ -10,7 +10,7 @@
 
     height: 350px;
     background-image: url(1.png);
-    background-size: cover;
+    background-size: 100% 100%;
     padding: 0 0 30px 0;
 
 
@@ -345,7 +345,7 @@ img {
     height: 179px;
     width: 60%;
     background-color: #141414;
-
+    
 
 }
 
@@ -396,6 +396,15 @@ a{
  .base{
 
  }
+ .inputbar{
+     margin-left: 30px;
+ }
+
+.form, h1 , p{
+    margin: 10px 0 0 20px;
+}
+
+
 /* media query*/
 @media ( max-width:720px){
 

@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    line-height: 1.5em;
+    background-image: url(bg.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1 {
+    color: #fad186;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+.titleBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: rgb(255, 255, 255);
+    ;
+    border-style: solid;
+    margin-top: 1em;
+    height: 5vh;
+    border-radius: 10px;
+}
+
+.messages {
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    margin-top: 1em;
+    height: 50vh;
+    padding: 2em;
+    border-radius: 10px;
+    
+}
+
+.message {
+    margin-top: .5em;
+    list-style: none;
+}
+
+.comment {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1em;
+    height: 10vh;
+}
+
+#utilisateur {
+    width: 25%;
+    height: 40%;
+}
+
+#message {
+    width: 55%;
+    height: 40%;
+}
+
+.envoyer {
+    height: 40%;
+    color: rgb(10, 7, 7);
+    background-color: #c9dae4;
+    border: #ffcb69 solid 1px;
+
+}
+
+.tompss {
+    color: rgb(249, 250, 252);
+    opacity: 70%;
+}
+
+.utils {
+    color: #c9dae4;
+    font-size: 25px;
+
+
+}
+
+.msg {
+    color: #fad186;
+}
+input{
+    background:transparent;
+    color: white;
+    
+ 
+ border :none;
+    border-bottom: #fad186  solid 2px;
+ 
+}
