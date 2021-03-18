@@ -39,8 +39,7 @@ main {
 }
 
 .messages {
-    overflow: hidden;
-    display: flex;
+    overflow: scroll;
     align-items: flex-end;
     border-color: rgb(255, 255, 255);
     border-style: solid;
@@ -50,6 +49,9 @@ main {
     border-radius: 10px;
     
 }
+
+    
+
 
 .message {
     margin-top: .5em;

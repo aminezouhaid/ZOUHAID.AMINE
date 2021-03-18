@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="signin.css?v=<?php echo time(); ?>">
   </head>
   <body>
+  <a href="signup.php"><input class="signupi" type="submit"  nam="insrc"  value="SIGN-UP"></a>
+
   <form action="signintrt.php" method="post">
 <div class="login-box">
   <h1>Login</h1>

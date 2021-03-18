@@ -6,6 +6,20 @@ body{
   background: url(bg.jpg) no-repeat;
   background-size: cover;
 }
+.signupi{
+  height:   50px;
+  width: 100px;
+  color:white;
+  background:transparent;
+position: fixed;
+margin-top: 50px;
+margin-left: 1200px;
+border: wheat solid 1px;
+
+
+
+
+}
 .login-box{
   width: 280px;
   position: absolute;
